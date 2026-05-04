@@ -6,7 +6,12 @@ const aboutController = (req, res) => {
     res.send('This is the About Page.');
 };
 
+const contactController = (req, res) => {
+    res.send('Contact us at example@email.com');
+};
+
 module.exports = {
     homeController,
-    aboutController
+    aboutController,
+    contactController
 };
